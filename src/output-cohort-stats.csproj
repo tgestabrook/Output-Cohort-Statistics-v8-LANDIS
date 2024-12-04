@@ -23,7 +23,12 @@
     <PackageTags>LANDIS-II;Landis;Extension;Output cohort statistics</PackageTags>
     <Description>This extension will produce outputs of cohort statistics</Description>
     <PackageReleaseNotes>LANDIS-II v8 update.</PackageReleaseNotes>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>..\..\build\extensions</OutputPath>
+  </PropertyGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Landis.Core" Version="3.0.1" />
@@ -33,7 +38,7 @@
     <Reference Include="Landis.Library.UniversalCohorts-v1">
     </Reference>
     <Reference Include="Landis.Library.Metadata-v2">
-      <HintPath>lib\Landis.Library.Metadata-v2.dll</HintPath>
+      <HintPath>..\..\build\extensions\Landis.Library.Metadata-v2.dll</HintPath>
     </Reference>
   </ItemGroup>
  
