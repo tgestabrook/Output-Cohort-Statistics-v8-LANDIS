@@ -36,6 +36,7 @@
 
   <ItemGroup>
     <Reference Include="Landis.Library.UniversalCohorts-v1">
+      <HintPath>..\..\build\extensions\Landis.Library.UniversalCohorts-v1.dll</HintPath>
     </Reference>
     <Reference Include="Landis.Library.Metadata-v2">
       <HintPath>..\..\build\extensions\Landis.Library.Metadata-v2.dll</HintPath>
